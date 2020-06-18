@@ -35,7 +35,7 @@ Grub has its own format/syntax for finding an HD location that’s different fro
     > m  (press m)
     >p  (print the details of storage)
     >n  (create a new partition)
-    >q (to quite)
+    >q (to quit)
 ```
 
 
