@@ -17,7 +17,7 @@ Simply add /place/with/the/file to the $PATH variable with the following command
     export PATH=$PATH:/place/with/the/file
 ```
 
-> An addition to a user's PATH variable can be made permanent by adding it to that user's .bash_profile file. .bash_profile is a hidden file in each user's home directory that defines any specific environmental variables and startup programs for that user.
+> An addition to a user's PATH variable can be made permanent by adding it to that user's .bash_profile file or .bashrc.   bash_profile is a hidden file in each user's home directory that defines any specific environmental variables and startup programs for that user.
 
 ### Adding to the Path
 Create a simple executable file with the name ls in your current directory, which we will assume to be /tmp:
