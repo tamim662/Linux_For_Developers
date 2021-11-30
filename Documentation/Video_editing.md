@@ -21,7 +21,6 @@ ffmpeg is a command-line tool that converts audio or video formats including oth
 
 ```
 ### Merge Two Videos:
- Here, you can change the value in place of 30 to change the speed
 ```bash
     ffmpeg -i vid-1.mp4 -i vid-2.mp4 -filter_complex '[0:v] [1:v] concat=n=2:v=1 [v]' -map '[v]' output.mp4
 ```
