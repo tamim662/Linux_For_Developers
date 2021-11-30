@@ -34,5 +34,4 @@ Linux tools, useful command, trifles.(based on debian)
 
 [Network And Network Interface](https://github.com/tamim662/Linux_For_Developers/blob/master/Documentation/Networking.md#network-and-network-interfaces)
 
-
-
+[Video Editing using command line tool](https://github.com/tamim662/Linux_For_Developers/blob/00f4075d5813c26690efd1929d420913e044b63b/Documentation/Video_editing.md)
