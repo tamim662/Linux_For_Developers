@@ -37,7 +37,7 @@ Linux tools, useful commands, trifles. (based on Debian)
 [Video Editing using command line tool](https://github.com/tamim662/Linux_For_Developers/blob/00f4075d5813c26690efd1929d420913e044b63b/Documentation/Video_editing.md)
 
 ### Linux power user commands
-**To estimate the total video length of all MP4 files in the current directory and its subdirectories:**
-```bash
-find . -iname '*.mp4' -exec ffprobe -v quiet -of csv=p=0 -show_entries format=duration {} \; | paste -sd+ - | bc -l | awk '{printf "%.2f minutes\n", $1/60}'
-```
+- **To estimate the total video length of all MP4 files in the current directory and its subdirectories:**
+    ```bash
+    find . -iname '*.mp4' -exec ffprobe -v quiet -of csv=p=0 -show_entries format=duration {} \; | paste -sd+ - | bc -l | awk '{printf "%.2f minutes\n", $1/60}'
+    ```
