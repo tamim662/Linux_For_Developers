@@ -1,5 +1,5 @@
 # Linux_For_Developers
-Linux tools, useful command, trifles.(based on debian)
+Linux tools, useful commands, trifles. (based on Debian)
 
 [echo](https://github.com/tamim662/Linux_For_Developers/blob/master/Documentation/echo_and_cat.md#the-first-one-is-echo "echo")
 
@@ -35,3 +35,9 @@ Linux tools, useful command, trifles.(based on debian)
 [Network And Network Interface](https://github.com/tamim662/Linux_For_Developers/blob/master/Documentation/Networking.md#network-and-network-interfaces)
 
 [Video Editing using command line tool](https://github.com/tamim662/Linux_For_Developers/blob/00f4075d5813c26690efd1929d420913e044b63b/Documentation/Video_editing.md)
+
+### Linux power user commands
+**To estimate the total video length of all MP4 files in the current directory and its subdirectories:**
+```bash
+find . -iname '*.mp4' -exec ffprobe -v quiet -of csv=p=0 -show_entries format=duration {} \; | paste -sd+ - | bc -l | awk '{printf "%.2f minutes\n", $1/60}'
+```
