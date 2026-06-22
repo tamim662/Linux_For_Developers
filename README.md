@@ -1,5 +1,5 @@
 # Linux_For_Developers
-Linux tools, useful commands, trifles. (based on Debian)
+Linux tools, useful commands, trifles.
 
 [echo](https://github.com/tamim662/Linux_For_Developers/blob/master/Documentation/echo_and_cat.md#the-first-one-is-echo "echo")
 
