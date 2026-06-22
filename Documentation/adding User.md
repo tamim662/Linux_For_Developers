@@ -11,7 +11,7 @@
     $ sudo useradd -m -c "Tamim Boss" -s bin/bash tamim
 ```
 
-> Here, m for make sure to craete newuser directoru in /home and c for account name , s for specify the default shell to bin/bash.
+> Here, m for make sure to create newuser directory in /home and c for account name , s for specify the default shell to bin/bash.
 
 Then add password:
 ```bash
