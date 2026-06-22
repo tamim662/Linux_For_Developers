@@ -1,4 +1,4 @@
-# Docker & Linux Internals — Study Notes
+# Docker & Linux Internals
 
 > Personal reference notes covering Docker architecture, Linux kernel internals, and Linux filesystem structure.
 
