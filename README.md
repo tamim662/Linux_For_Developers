@@ -12,7 +12,7 @@ Covers everyday commands, system internals, networking, package management, and 
 ### Core Concepts
 | Topic | Description |
 |---|---|
-| [Kernel](Documentation/kernel.md) | Kernel version, loaded modules, kernel messages |
+| [Kernel](kernel.md) | Kernel version, loaded modules, kernel messages |
 | [Linux Directory Structure](linux_directory_structure.md) | What every directory in `/` is for |
 | [Filesystem & Partitions](Documentation/filesystem.md) | `fdisk`, partition schemes, GRUB |
 | [Environment Variables](Documentation/env_var.md) | `env`, `export`, `printenv`, setting vars |
